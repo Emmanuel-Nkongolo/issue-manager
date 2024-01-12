@@ -1,6 +1,7 @@
 "use client"
 
 import { Button, TextArea, TextField } from "@radix-ui/themes";
+import Link from "next/link";
 
 const NewIssuePage = () => {
   return (
@@ -9,7 +10,12 @@ const NewIssuePage = () => {
       <TextField.Input placeholder="Title" />
     </TextField.Root>
     <TextArea placeholder="Description" />
+    {/* <div className=""> */}
     <Button>Submit New Issue</Button>
+    {/* <Button variant="outline">
+      <Link href="/issues">Cancel</Link>
+      </Button> */}
+    {/* </div> */}
   </div>
   )
 };
