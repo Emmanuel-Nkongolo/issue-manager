@@ -1,14 +1,14 @@
 import "@radix-ui/themes/styles.css";
-import "@/app/theme-config.css";
+import "./theme-config.css";
 import "./globals.css";
 import { Theme } from "@radix-ui/themes";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google"
 import NavBar from "./NavBar"
 
-const inter = Inter ({ 
-    subsets: ["latin"],
-    variable: "--font-inter",
+const inter = Inter({ 
+  subsets: ["latin"],
+  variable: "--font-inter",
 })
 
 export const metadata: Metadata = {
